@@ -6,7 +6,7 @@ class DBTools :
 public:
 	DBTools();
 	~DBTools();
-	virtual bool Equals(DBTools *dbtools);
-	virtual bool Equals(DBTools dbtools);
+	virtual bool Equals(DBTools *dbTools);
+	virtual bool Equals(DBTools &dbTools);
 };
 

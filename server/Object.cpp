@@ -19,7 +19,7 @@ bool Object::Equals(Object *object)
 	return false;
 }
 
-bool Object::Equals(Object object)
+bool Object::Equals(Object &object)
 {
-	return false;
+	return true;
 }

@@ -19,6 +19,6 @@ public:
 
 	// 摘要：
 	//      判断指定对象和当前对象是否相等。
-	virtual bool Equals(Player player);
+	virtual bool Equals(Player &player);
 };
 

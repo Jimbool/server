@@ -20,7 +20,15 @@ bool Attribute::Equals(Attribute *attribute)
 	return false;
 }
 
-bool Attribute::Equals(Attribute attribute)
+bool Attribute::Equals(Attribute &attribute)
 {
-	return false;
+	if (ID != attribute.ID)
+	{
+		return false;
+	}
+	if (Name != attribute.Name)
+	{
+		return false;
+	}
+	return true;
 }

@@ -8,6 +8,6 @@ public:
 	Object();
 	~Object();
 	virtual bool Equals(Object *object);
-	virtual bool Equals(Object object);
+	virtual bool Equals(Object &object);
 };
 

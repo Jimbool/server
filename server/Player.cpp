@@ -21,7 +21,15 @@ bool Player::Equals(Player *player)
 	return false;
 }
 
-bool Player::Equals(Player player)
+bool Player::Equals(Player &player)
 {
-	return false;
+	if (AttributePtr->ID != player.AttributePtr->ID)
+	{
+		return false;
+	}
+	if(AttributePtr->Name != player.AttributePtr->Name)
+	{
+		return false;
+	}
+	return true;
 }

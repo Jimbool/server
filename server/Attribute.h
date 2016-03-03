@@ -13,6 +13,6 @@ public:
 	Attribute(int id, string name);
 	~Attribute();
 	virtual bool Equals(Attribute *attribute);
-	virtual bool Equals(Attribute attribute);
+	virtual bool Equals(Attribute &attribute);
 };
 

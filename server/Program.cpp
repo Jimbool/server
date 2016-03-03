@@ -2,9 +2,10 @@
 
 int main(void)
 {
-	Player *p0 = new Player(new Attribute(1, "00"));
-	Player *p1 = new Player(new Attribute(2, "11"));
-	printf("%d\n",(int)p0);
-	printf("%d\n",(int)p1);
+	Player p1(new Attribute(2, "11"));
+	Player p2(new Attribute(3,"33"));
+
+	printf("%d\n",p1.Equals(p2));
+	getchar();
 	return 0;
 }
