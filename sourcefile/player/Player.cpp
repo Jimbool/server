@@ -1,15 +1,14 @@
 #include "Player.h"
 
-
-Player::Player(Attribute *attribute)
+Player::Player()
 {
-	AttributePtr = attribute;
+
 }
 
 
 Player::~Player()
 {
-	delete(AttributePtr);
+	
 }
 
 bool Player::Equals(Player *player)
@@ -23,13 +22,5 @@ bool Player::Equals(Player *player)
 
 bool Player::Equals(Player &player)
 {
-	if (AttributePtr->ID != player.AttributePtr->ID)
-	{
-		return false;
-	}
-	if(AttributePtr->Name != player.AttributePtr->Name)
-	{
-		return false;
-	}
-	return true;
+	return false;
 }

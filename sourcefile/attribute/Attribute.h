@@ -1,5 +1,4 @@
-#pragma once
-#include "Object.h"
+#include "../object/Object.h"
 #include <string>
 
 using namespace std;
