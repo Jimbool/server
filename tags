@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Attribute	headfile/Attribute.h	/^class Attribute :$/;"	c
+Attribute	sourcefile/Attribute.cpp	/^Attribute::Attribute(int id, string name)$/;"	f	class:Attribute
+AttributePtr	headfile/Player.h	/^	Attribute *AttributePtr;$/;"	m	class:Player
+DBTools	headfile/DBTools.h	/^class DBTools :$/;"	c
+DBTools	sourcefile/DBTools.cpp	/^DBTools::DBTools()$/;"	f	class:DBTools
+Equals	sourcefile/Attribute.cpp	/^bool Attribute::Equals(Attribute &attribute)$/;"	f	class:Attribute
+Equals	sourcefile/Attribute.cpp	/^bool Attribute::Equals(Attribute *attribute)$/;"	f	class:Attribute
+Equals	sourcefile/DBTools.cpp	/^bool DBTools::Equals(DBTools &dbTools)$/;"	f	class:DBTools
+Equals	sourcefile/DBTools.cpp	/^bool DBTools::Equals(DBTools *dbTools)$/;"	f	class:DBTools
+Equals	sourcefile/Object.cpp	/^bool Object::Equals(Object &object)$/;"	f	class:Object
+Equals	sourcefile/Object.cpp	/^bool Object::Equals(Object *object)$/;"	f	class:Object
+Equals	sourcefile/Player.cpp	/^bool Player::Equals(Player &player)$/;"	f	class:Player
+Equals	sourcefile/Player.cpp	/^bool Player::Equals(Player *player)$/;"	f	class:Player
+ID	headfile/Attribute.h	/^	int ID;$/;"	m	class:Attribute
+Name	headfile/Attribute.h	/^	string Name;$/;"	m	class:Attribute
+Name	headfile/Object.h	/^	string *Name;$/;"	m	class:Object
+Object	headfile/Object.h	/^class Object$/;"	c
+Object	sourcefile/Object.cpp	/^Object::Object()$/;"	f	class:Object
+Player	headfile/Player.h	/^class Player :$/;"	c
+Player	sourcefile/Player.cpp	/^Player::Player(Attribute *attribute)$/;"	f	class:Player
+main	sourcefile/Program.cpp	/^int main(void)$/;"	f
+~Attribute	sourcefile/Attribute.cpp	/^Attribute::~Attribute()$/;"	f	class:Attribute
+~DBTools	sourcefile/DBTools.cpp	/^DBTools::~DBTools()$/;"	f	class:DBTools
+~Object	sourcefile/Object.cpp	/^Object::~Object()$/;"	f	class:Object
+~Player	sourcefile/Player.cpp	/^Player::~Player()$/;"	f	class:Player

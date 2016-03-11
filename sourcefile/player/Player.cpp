@@ -1,4 +1,7 @@
+#ifndef PLAYER_CPP
+#define PLAYER_CPP
 #include "Player.h"
+#endif
 
 Player::Player()
 {
@@ -13,10 +16,6 @@ Player::~Player()
 
 bool Player::Equals(Player *player)
 {
-	if (this == player)
-	{
-		return true;
-	}
 	return false;
 }
 
