@@ -26,17 +26,17 @@ Player::~Player() {
 }
 
 bool Player::Equals(Player *player) {
-	if (this == Player)
-		return true;
-	else 
-		return false;
+    if (this == Player)
+        return true;
+    else 
+    return false;
 }
 
 bool Player::Equals(Player &playre) {
-	return false;
+    return false;
 }
 
 Player* Clone() {
-	Player *P = new Player();
-	return p;
+    Player *P = new Player();
+    return p;
 }
