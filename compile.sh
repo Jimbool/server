@@ -1,1 +1,1 @@
-g++ -o main sourcefile/Program.cpp sourcefile/Object.cpp sourcefile/player/Player.cpp
+g++ -o main engine/Program.cpp engine/object/Object.cpp engine/player/Player.cpp
