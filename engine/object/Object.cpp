@@ -26,14 +26,14 @@ Object::~Object() {
 }
 
 bool Object::Equals(Object *object) {
-	return false;
+    return false;
 }
 
 bool Object::Equals(Object &objct) {
-	return false;
+    return false;
 }
 
 Object* Object::Clone() {
-	Object *p = new Object();
-	return p;
+    Object *p = new Object();
+    return p;
 }
