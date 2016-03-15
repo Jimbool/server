@@ -19,6 +19,6 @@
 #endif
 
 int main(void) {
-	Player *p = new Player();
-	return 0;
+    Player *p = new Player();
+    return 0;
 }
