@@ -21,7 +21,7 @@ class Player : public Object {
     public:
         Player();
         virtual ~Player();
-        virtual Equals(Player* player);
-        virtual Equals(Player& player);
+        virtual bool Equals(Player* player);
+        virtual bool Equals(Player& player);
         virtual Player* Clone();
-}
+};

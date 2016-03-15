@@ -22,5 +22,5 @@ class Object {
         virtual ~Object();
         virtual bool Equals(Object* object);
         virtual bool Equals(Object& object);
-        virtual bool Object* Clone();
-}
+        virtual Object* Clone();
+};

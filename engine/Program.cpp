@@ -15,7 +15,6 @@
 #ifndef PROGRAM_CPP
 #define PROGRAM_CPP
 #include "player/Player.h"
-#include <Program.cpp>
 #endif
 
 int main(void) {

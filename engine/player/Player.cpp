@@ -36,7 +36,7 @@ bool Player::Equals(Player &playre) {
     return true;
 } 
 
-Player* Clone() {
+Player* Player::Clone() {
     Player *p = new Player();
     return p;
 }
