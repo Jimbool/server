@@ -17,10 +17,10 @@
 #endif
 
 class Object {
-	public:
-		Object();
-		virtual ~Object();
-		virtual bool Equals(Object *objcet);
-		virtual bool Equals(Object &object);
-		virtual Object Clone();
+    public:
+        Object();
+        virtual ~Object();
+        virtual bool Equals(Object* object);
+        virtual bool Equals(Object& object);
+        virtual bool Object* Clone();
 }
